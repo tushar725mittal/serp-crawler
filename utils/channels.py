@@ -3,7 +3,7 @@ from selenium.common.exceptions import NoSuchElementException
 
 
 def get_channel_links(driver, video_links, post_links, channel_links):
-    """Get the channel links from the video links and save them to a JSON file"""
+    """Get the channel links from the video links and post links and save them to a JSON file"""
     print("Extracting channel links from the video links........")
     for video_link in video_links:
         # Navigate to the video page
